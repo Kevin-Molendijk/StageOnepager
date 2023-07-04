@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@600&display=swap');
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 100vh;
+    background: rgb(27,255,218);
+    background: linear-gradient(115deg, rgba(27,255,218,1) 0%, rgba(9,9,121,1) 100%, rgba(0,212,255,1) 100%);
+    font-family: sans-serif,"Santral book";
+}
+
+img {
+    display: block;
+    margin: auto;
+    padding-top: 5%;
+}
+
+.headerText {
+    text-align: center;
+    padding: 5%;
+    font-size: 3em;
+    color: white;
+}
+
+.smlHeaderText {
+    text-align: center;
+    padding: 5%;
+    font-size: 1.5em;
+    color: white;
+}
+
+.demoImg {
+    width: 95vw;
+    padding: 2%;
+}
+
+.container1 {
+    display: flex;
+}
+
+.midText {
+    background-color: #00ead0;
+    width: 60vw;
+    justify-content: right;
+    padding: 5%;
+}
+
+.midTextHead {
+    font-family: sans-serif, "Santral bold";
+    color: #02114d;
+    font-weight: bold;
+    font-size: 3.5em;
+}
+
+.vLine {
+    border-left: 2px solid #ffffff;
+    height: 100px;
+    margin-left: 1%;
+    top: 0;
+}
+
+.alineaPadding {
+    padding-top: 10vh;
+}
+
+.Number {
+    font-size: 4em;
+    font-family: 'Chakra Petch', sans-serif;
+    color: white;
+}
+
+.Title {
+    font-size: 2em;
+    padding-top: 3.5vh;
+    font-family: Roboto, sans-serif;
+    color: white;
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+.loremIpsum {
+    max-width: 600px;
+    font-size: 2em;
+    font-family: sans-serif, "Santral bold";
+    color: #02114d;
+    margin-bottom: 50px;
+    margin-top: 0px;
+}
+.telephone {
+    padding: 5%;
+    margin-bottom: 0%;
+}
+
+footer {
+    background-color: #02114d;
+
+}
+
+.footerFill {
+    font-family: sans-serif, "Santral bold";
+    justify-content: space-evenly;
+    color: white;
+    font-size: 1.5em;
+    line-height: 1.5;
+
+}
+
+.footerImg {
+    width: 20vw;
+    padding-top: 5vh;
+    padding-bottom: 3vh;
+}
+
+.nobullet {
+    list-style-type: none;
+}
+
+hr {
+    max-width: 85vw;
+}
+
+i {
+    padding-top: 10vh;
+    padding-bottom: 2vh;
+    padding-right: 2vh;
+    border-radius: 14px;
+}
+
+input {
+    padding: 2vh;
+    width: 20vw;
+    font-size: 1em;
+    border-radius: 10px;
+    color: #02114d;
+    background-image: url("Assets/image.png");
+    background-repeat: no-repeat;
+    background-position: 20vw 15px;
+
+
+}
